@@ -1,0 +1,44 @@
+body{
+    
+    margin: 40px;
+    background-color: rgb(60, 60, 60);
+}
+
+h1{
+    text-align: center;
+    margin-top: 8px;
+    
+}
+header{
+    background-color: gray;
+    
+}
+
+
+div{
+    display: inline-block;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+
+.left-sidebar{
+    float: left;
+    background-color: aqua;
+    width: 150px;
+}
+
+.main{
+    background-color: rgb(179, 203, 148);
+    width: calc(100% - 180px);
+}
+
+.link{
+    text-align: center;
+    display: block;
+}
+
+/* @font-face {
+    font-family: 'montserrat';
+    src: url('/fonts/Montserrat/static/Montserrat-Black.ttf');
+} */
