@@ -1,21 +1,42 @@
+/* 
+    Color palette:
+    #30292F < Black
+    #413F54
+    #5F5AA2
+    #355691
+    #3F4045 < dark grey
+    
+    #ebebeb < white
+
+*/
+
+
+
 body{
     margin: 40px;
-    background-color: rgb(60, 60, 60);
-}
-
-a{
-    font-family: Montserrat;
-    font-weight: 200;
-    text-decoration: none;
+    background-color: #30292F
 }
 
 
 
 h1{
+    /* Title */
     text-align: center;
     margin-top: 8px;
+    margin-bottom: 0px;
     font-family: Montserrat;
     font-weight: bold;
+    
+}
+
+h2{
+    /* Subtitle */
+    text-align: center;
+    font-family: Montserrat;
+    font-style: italic;
+    color: rgb(196, 196, 196);
+    margin-top: 0px;
+    font-size: small;
 }
 
 header{
@@ -40,12 +61,6 @@ div{
     border: 0px;
 }
 
-.left-sidebar{
-    float: left;
-    background-color: aqua;
-    width: 150px;
-    height: auto;
-}
 
 .image-block{
     background-color: rgb(111, 111, 111);
@@ -55,14 +70,14 @@ div{
 }
 
 .main{
-    background-color: rgb(179, 203, 148);
+    background-color: #5F5AA2;
     width: calc(100% - 180px);
 }
 
-.link{
-    text-align: center;
-    display: block;
+.no_radius{
+    border-radius: 0px;
 }
+
 
 @font-face {
     font-family: Montserrat;

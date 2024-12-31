@@ -1,6 +1,4 @@
-<body>
-    
-</body>
+
 
 <link rel="stylesheet" href="../style/sidebar.css">
 
@@ -8,12 +6,12 @@
 
 
 
-<!-- <a class="link" href="/index.html" >Home</a>
-<a class="link" href="/education.html" >Education</a> -->
+<a class="link" href="/index.html" >Home</a>
+<a class="link" href="/education.html" >Education</a>
 
 
-<button onclick="updateColor(this)">
-    <a href="/index.html" class="link">Home</a>
+<!-- <button onclick="updateColor(this)">
+    <a href="/index.html" class="link selected">Home</a>
 </button>
 
 <button onclick="updateColor(this)">
@@ -28,7 +26,7 @@
 </button> 
 <button onclick="updateColor(this)">
     <a href="/about_me.html" class="link" >About Me</a>
-</button>
+</button> -->
 
 
 

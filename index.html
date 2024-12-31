@@ -7,16 +7,21 @@
 
     </header>
     <body>
-       <div w3-include-html="/templates/sidebar.html" class="left-sidebar"></div>
-        
+        <!-- <?php include '/templates/sidebar.php';?> -->
+         <div w3-include-html="/templates/sidebar.html"></div>
        <div class="main">
             <header>
                 <h1>Ari Osmun</h1>
-                
+                <h2>
+                    she/her/hers
+                </h2>
             </header>
             <div class="image-block">
-                <img src="/images/ari_buisness_cas.jpg" 
-                alt="Ari wearing business casual clothing." >
+                <img loading="lazy"
+                src="/images/ari_buisness_cas.jpg" 
+                
+                alt="Ari wearing business casual clothing." 
+                >
             </div>
             <div>
                 this is the main content!
@@ -25,7 +30,6 @@
 
             
        </div>
-       
-        <script>w3IncludeHTML();</script>
+       <script>w3IncludeHTML();</script>
     </body>
 </html>
