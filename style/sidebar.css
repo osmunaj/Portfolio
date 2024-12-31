@@ -2,7 +2,8 @@
     float: left;
     background-color: #413F54;
     width: 150px;
-    height: auto;
+    height: 600px;
+    display: inline-block;
 }
 
 .selected{
@@ -29,6 +30,7 @@ button{
     font-size:x-small;
     text-align: center;
     display: block;
+    font-style: italic;
 }
 
 a{
@@ -60,7 +62,7 @@ h3{
 
 h4{
     font-family: Montserrat;
-    font-weight: 600;
+    font-weight: 400;
     text-align: center;
     color: #ebebeb;
     margin: 5px;

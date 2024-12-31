@@ -13,7 +13,7 @@
 
 
 body{
-    margin: 40px;
+    margin: 80px;
     background-color: #30292F
 }
 
@@ -21,35 +21,53 @@ body{
 
 h1{
     /* Title */
-    text-align: center;
+    text-align: left;
+    padding-left: 50px;
     margin-top: 8px;
     margin-bottom: 0px;
     font-family: Montserrat;
     font-weight: bold;
-    
+    width: 50%;
 }
 
 h2{
     /* Subtitle */
-    text-align: center;
+    text-align: left;
+    padding-left: 60px;
     font-family: Montserrat;
     font-style: italic;
     color: rgb(196, 196, 196);
-    margin-top: 0px;
     font-size: small;
+    width: 50%;
+}
+
+.portrait{
+    float: right;
+    width: 40%;
+    max-width: 300px;
+    margin: 50px;
+    transform: translateY(-140px)
 }
 
 header{
     background-color: gray;
+}
 
+.logo{
+    display: block;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    float: right;
 }
 
 img{
-    display: block;
+    display: inline-block;
     align-self: center;
-    width: 50%;
-    border-top-left-radius: 20px;
-    border-bottom-right-radius: 20px;
+    width: 25%;
+    
+    /* border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px; */
 }
 
 
@@ -64,14 +82,17 @@ div{
 
 .image-block{
     background-color: rgb(111, 111, 111);
-    width: 400px;
-    height: 400px;
+    /* width: 400px;
+    height: 400px; */
     align-items: center;
 }
 
 .main{
     background-color: #5F5AA2;
-    width: calc(100% - 180px);
+    width: calc(100% - 160px);
+    display: inline-block;
+    vertical-align: top;
+    height: 600px;
 }
 
 .no_radius{

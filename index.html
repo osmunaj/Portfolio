@@ -2,34 +2,31 @@
     <script src="scripts/w3script.js"></script>
     <head>
         <link rel="stylesheet" href="/style/style_main.css">
-    </head>
-    <header>
+        <script src="/scripts/nav_link_selector.js"></script>
 
-    </header>
+    </head>
+
     <body>
-        <!-- <?php include '/templates/sidebar.php';?> -->
-         <div w3-include-html="/templates/sidebar.html"></div>
-       <div class="main">
+        <div w3-include-html="/templates/sidebar.html" class="left-sidebar"></div>
+        <div class="main">
             <header>
                 <h1>Ari Osmun</h1>
                 <h2>
                     she/her/hers
                 </h2>
-            </header>
-            <div class="image-block">
-                <img loading="lazy"
-                src="/images/ari_buisness_cas.jpg" 
                 
+            </header>
+            <img loading="lazy" 
+                src="/images/circle-removebg.png" 
                 alt="Ari wearing business casual clothing." 
+                class="portrait"
                 >
-            </div>
             <div>
-                this is the main content!
-            </div>
-           
 
+            </div>
             
        </div>
        <script>w3IncludeHTML();</script>
+
     </body>
 </html>
