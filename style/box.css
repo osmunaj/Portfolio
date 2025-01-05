@@ -1,0 +1,17 @@
+.box{
+    border: solid;
+    vertical-align: top;
+    background-color: rgb(199, 199, 199);
+}
+
+.half_box{
+    width: 48%;
+}
+
+.box p{
+    font-size: small;
+    all: unset;
+}
+.box h1{
+    all: unset;
+}

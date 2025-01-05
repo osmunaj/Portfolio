@@ -1,11 +1,9 @@
 <html>
-    <script src="../scripts/w3script.js"></script>
-
     <head>
         <link rel="stylesheet" href="/style/style_main.css">
     </head>
     <body>
-        <div w3-include-html="/../templates/sidebar.html" class="left-sidebar"></div>
+        <div id="sidebar" class="left-sidebar"></div>
 
         
         <div class="main">
@@ -16,8 +14,8 @@
             this is the main content!
 
         </div>
-
-        <script>w3IncludeHTML();</script>
+        <script src="/scripts/jquery-3.7.1.min.js"></script>
+        <script> $(function(){$("#sidebar").load("/templates/sidebar.html");});</script>
 
     </body>
 </html>

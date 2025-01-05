@@ -1,31 +1,31 @@
 <html>
-    <script src="../scripts/w3script.js"></script>
 
     <head>
         <link rel="stylesheet" href="/style/style_main.css">
     </head>
     <body>
-        <div w3-include-html="/../templates/sidebar.html" class="left-sidebar"></div>
-
+        <div id="sidebar" class="left-sidebar"></div>
         <div class="main">
             <header>
-                <div>
-                    <h1 style="width: 70%; display: block;">Resume</h1>
-                </div>
-                <a href="/images/Ari Osmun Resume - DECEMBER 2024.pdf" download class="logo">
-                    <img src="/images/download.png" alt="" style="width: 30px; border-radius: 10px;">
-                </a>
+                <h1>Resume</h1>
             </header>
-            
-            <img loading="lazy" src="/images/ari_osmun_resume.png" alt="Ari Resume" class="no_radius" style=" max-width: 600px; width: 75%; display: inline-block; padding: 20px;">
+            main 
 
+            <iframe loading="lazy" src="/images/Ari Osmun Resume - DECEMBER 2024.pdf" 
+            frameborder="0" style="height: 600px; width: 300px;"></iframe>
+            
+
+            <!-- <img loading="lazy" src="/images/ari_osmun_resume.png" alt="Ari Resume" class="no_radius" style=" max-width: 500px; width: 75%; display: inline-block; padding: 20px;"> -->
 
         </div>
+
+         
+        
         
 
-       
-
-        <script>w3IncludeHTML();</script>
+        <script src="/scripts/jquery-3.7.1.min.js"></script>
+        <script> $(function(){$("#sidebar").load("/templates/sidebar.html");});</script>
 
     </body>
 </html>
+

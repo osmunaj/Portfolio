@@ -2,12 +2,13 @@
     float: left;
     background-color: #413F54;
     width: 150px;
-    height: 600px;
+    height: 800;
     display: inline-block;
 }
 
 .selected{
-    background-color: orange !important;
+    background-color: #ebebeb;
+    color: 30292F;
 }
 
 button{
@@ -30,8 +31,13 @@ button{
     font-size:x-small;
     text-align: center;
     display: block;
-    font-style: italic;
+    padding: 10px;
 }
+
+hr{
+    margin: 0px;
+}
+
 
 a{
     font-family: Montserrat;
@@ -45,6 +51,12 @@ p{
     font-weight: 200;
     text-decoration: none;
     color: #ebebeb;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
 }
 
 .link:hover{
