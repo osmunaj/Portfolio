@@ -15,7 +15,6 @@ links.forEach((link) => {
     let link_str = link.href;
     const spl2 = link_str.split('/');
     link_str = spl2[spl2.length-1];
-    console.log(link_str);
     if(link_str == current){
         link.classList.add('selected');
     }
