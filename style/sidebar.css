@@ -1,14 +1,30 @@
 .left-sidebar{
     float: left;
-    background-color: #413F54;
-    width: 150px;
-    height: 800;
+    background-color: #3f4c54;
+    width: 160px;
     display: inline-block;
+    border-top-left-radius: 8px;
+    height: 100vh;
+
 }
 
 .selected{
-    background-color: #a1a1a1;
+    background-color: #ebebeb;
     color: 30292F;
+}
+
+.link-top{
+    border-top-left-radius: 8px;
+}
+
+.link-top:hover{
+    border-top-left-radius: 8px;
+}
+
+.link:hover{
+    background-color: #ebebeb;
+    color: 30292F;
+    
 }
 
 button{
@@ -59,10 +75,7 @@ ul{
     margin: 0px;
 }
 
-.link:hover{
-    background-color: #ebebeb;
-    color: 30292F;
-}
+
 
 h3{
     font-family: Montserrat;

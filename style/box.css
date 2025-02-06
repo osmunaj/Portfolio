@@ -1,17 +1,38 @@
+
+
 .box{
     border: solid;
     vertical-align: top;
     background-color: rgb(199, 199, 199);
 }
 
+.main_content_box{
+    height: 100hv;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.main_content_box h1{
+    font-size: 60px;
+    font-family: DM_Serif;
+    color: rgb(227, 227, 227);
+}
+
 .half_box{
-    width: 48%;
+    width: 40%;
+    border: none;
+    box-shadow: 2px 2px 4px;
+    display: inline-block;
+    margin: 20px;
+    background-color: #a9bdcb;
 }
 
 .box p{
     font-size: small;
-    all: unset;
 }
 .box h1{
-    all: unset;
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 35px;
 }

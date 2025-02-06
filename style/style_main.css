@@ -13,18 +13,46 @@
 
 */
 
-
-
 body{
-    margin-left: 80px;
-    margin-right: 80px;
+    /* margin-left: 80px;
+    margin-right: 40px;
+    margin-top: 40px; */
+    margin-left: 200px;
+    
+    margin-right: 200px;
     margin-top: 40px;
-    background-color: #30292F;
-    background-image: url(/images/paint_background.jpg);
+    margin-bottom: 40px;
+    background-image: url(/images/background-4.jpg);
     background-size: cover;
+    box-shadow: 20px 20px 60px;
+    
 }
 
+/* .main{
+    background-color: #bcb5b5;
+    width: calc(100% - 160px);
+    display: inline-block;
+    vertical-align: top;
+    height: 800px;
+} */
 
+main{
+    background-color: #2e2e2e;
+    width: calc(100% - 160px);
+    /* min-width: 600px; */
+    display: inline-block;
+    vertical-align: top;
+    height: 100vh;
+}
+
+section{
+    
+
+}
+
+section h1{
+    text-align: center;
+}
 
 h1{
     /* Title */
@@ -34,7 +62,6 @@ h1{
     padding: 5px;
     font-family: Montserrat;
     font-weight: bold;
-    width: 50%;
 }
 
 h2{
@@ -43,24 +70,59 @@ h2{
     padding-left: 60px;
     font-family: Montserrat;
     font-style: italic;
-    color: rgb(196, 196, 196);
+    /* color: rgb(196, 196, 196); */
+    
     font-size: small;
     width: 50%;
 }
 
+h3{
+    font-family: Montserrat;
+}
+
+p{
+    font-family: Montserrat;
+    font-size: 20px;
+    padding: 10px;
+    letter-spacing: 2px;
+    text-indent: 4px;
+}
+
+
+.code{
+    font-family: SourceCodePro !important;
+    font-style: normal;
+    font-weight: 300;
+    color: rgb(195, 195, 195);
+    /* color: #008000; */
+    letter-spacing: 3px;
+}
+
 .portrait{
-    float: right;
-    width: 40%;
-    max-width: 300px;
-    margin: 50px;
-    transform: translateY(-140px)
+    float: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    min-width: 200px;
+   
+    /* transform: translateY(-100px); */
+    /* background-color: rgb(48, 48, 48);
+    border-radius: 50%; */
+
 }
 
 header{
-    background-color: gray;
-    margin-top: 10px;
+    background-color: rgb(121, 121, 121);
+    margin-top: 0px;
     margin-bottom: 10px;
+    padding-left: 30px;
+    padding-top: 30px;
+    height: 80px;
     display: block;
+    
+    border-bottom: solid 16px #050505;
+    border-right: solid 12px #6b6b6b;
 }
 
 .logo{
@@ -79,8 +141,6 @@ img{
     /* border-top-left-radius: 20px;
     border-bottom-right-radius: 20px; */
 }
-
-
 
 div{
     display: inline-block;
@@ -104,13 +164,6 @@ div{
     max-width: 800px; */
 }
 
-.main{
-    background-color: #bcb5b5;
-    width: calc(100% - 160px);
-    display: inline-block;
-    vertical-align: top;
-    height: 800px;
-}
 
 .no_radius{
     border-radius: 0px;
@@ -127,6 +180,51 @@ div{
 @font-face {
     font-family: Montserrat;
     src: url('fonts/Montserrat/Montserrat-Italic-VariableFont_wght.ttf') format('woff2');
+    font-style: italic;
+    font-weight: 300 800;
+}
+
+@font-face {
+    font-family: SourceCodePro;
+    src: url('fonts/Source_Code_Pro/SourceCodePro-VariableFont_wght.ttf') format('woff2');
+    font-style: normal;
+    font-weight: 300 800;
+}
+
+@font-face {
+    font-family: SourceCodePro;
+    src: url('/fonts/Source_Code_Pro/SourceCodePro-Italic-VariableFont_wght.ttf');
+    font-style: italic;
+    font-weight: 300 800;
+
+}
+
+
+@font-face {
+    font-family: Schibsted_Grotesk;
+    src: url('/fonts/Schibsted_Grotesk/SchibstedGrotesk-VariableFont_wght.ttf');
+    font-style: normal;
+    font-weight: 300 800;
+}
+
+@font-face {
+    font-family: Schibsted_Grotesk;
+    src: url('/fonts/Schibsted_Grotesk/SchibstedGrotesk-Italic-VariableFont_wght.ttf');
+    font-style: italic;
+    font-weight: 300 800;
+}
+
+@font-face {
+    font-family: DM_Serif;
+    src: url('/fonts/DM_Serif_Text/DMSerifText-Regular.ttf');
+    font-style: normal;
+    font-weight: 300 800;
+}
+
+
+@font-face {
+    font-family: DM_Serif;
+    src: url('/fonts/DM_Serif_Text/DMSerifText-Italic.ttf');
     font-style: italic;
     font-weight: 300 800;
 }
