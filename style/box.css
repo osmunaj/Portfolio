@@ -20,12 +20,9 @@
 }
 
 .half_box{
-    width: 40%;
+    width: 48%;
     border: none;
-    box-shadow: 2px 2px 4px;
     display: inline-block;
-    margin: 20px;
-    background-color: #a9bdcb;
 }
 
 .box p{
