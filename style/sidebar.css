@@ -2,10 +2,9 @@
     float: left;
     background-color: #3f4c54;
     width: 160px;
-    display: inline-block;
+    display: block;
     border-top-left-radius: 8px;
-    height: 100vh;
-
+    
 }
 
 .selected{
@@ -27,6 +26,14 @@
     
 }
 
+.no_bullet_list{
+    text-align: center;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+
 button{
     padding: 0px;
     border: 0px;
@@ -44,15 +51,18 @@ button{
 }
 
 .small-link{
-    font-size:x-small;
+    font-size: 11px;
     text-align: center;
     display: block;
     padding: 10px;
+    font-weight: 100;
+    letter-spacing: 1px;
 }
 
 hr{
     margin: 0px;
 }
+
 
 
 a{
@@ -70,11 +80,10 @@ p{
 }
 
 ul{
-    list-style-type: none;
+    
     padding: 0px;
     margin: 0px;
 }
-
 
 
 h3{

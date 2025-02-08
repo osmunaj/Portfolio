@@ -1,7 +1,9 @@
-<html">
+<html>
     <head>
         <link rel="stylesheet" href="/style/style_main.css">
-        <link rel="stylesheet" href="/style/box.css">
+        <link rel="stylesheet" href="/style/boxes.css">
+        <script src="/scripts/jquery-3.7.1.min.js"></script>
+        <script> $(function(){$("#sidebar").load("/templates/sidebar.html");});</script>
     </head>
 
     <body>
@@ -10,11 +12,12 @@
         <main>
             
             <header>
-                <h1 class="code">Print(Hello, World!)</h1>
+                <h1 class="code">System.out.println(<span class="orange_code">"Hello, World!"</span>)</h1>
+                
             </header>
 
             <section>
-                <div class="main_content_box half_box">
+                <div class="main_content_box half_box" >
                     <h1>I'm Ari Osmun</h1>
                     <p>... and this is a website I made! I'm a Computer Scientist at 
                         Montana State University, class of 2026.
@@ -32,6 +35,7 @@
                     class="portrait"
                     >
                 </div>
+                
             </section>
             
 
@@ -57,7 +61,6 @@
             
            
         </main>
-        <script src="/scripts/jquery-3.7.1.min.js"></script>
-        <script> $(function(){$("#sidebar").load("/templates/sidebar.html");});</script>
+        
     </body>
 </html>

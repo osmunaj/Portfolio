@@ -1,7 +1,10 @@
 <html>
     <head>
         <link rel="stylesheet" href="/style/style_main.css">
-        
+        <link rel="stylesheet" href="/style/boxes.css">
+        <script src="/scripts/jquery-3.7.1.min.js"></script>
+        <script> $(function(){$("#sidebar").load("/templates/sidebar.html");});</script>
+
     </head>
     <body>
         <div id="sidebar" class="left-sidebar"></div>
@@ -11,32 +14,84 @@
                 <h1 class="code">Education</h1>
             </header>
             <section>
-                <div style="width: 49%;" class="main_content_box">
-                   <h1>Montana State University</h1>
-                   <p>
-                        Some more information yap yap yap
-                   </p>
-                </div>
-                <div style="width: 49%; background-color: rgb(88, 179, 35);">
-                    <!-- Image of MSU -->
-                   <p>Image of MSU!</p>
-                </div>
-            </section>
-
-            <section>
                 <div class="half_box">
+                   <h1>Montana State University</h1>
+                   <p>I am working towards a bachelors of science 
+                    in Computer Science, with a minor in Data 
+                    Science, and I'm set to graduate in the 
+                    Spring of 2026 at MSU.
+                   </p>
+                   <p>
+                        With my degree, I hope to further my knowledge
+                        of programming, web development, and data 
+                        analysis. I'm still deciding on which field to 
+                        work in after I graduate, but in many regards, I 
+                        am an open book!
+                   </p>
+                   <img src="/images/sign1.JPG" 
+                    class="portrait"
+                    loading="lazy"
+                    alt="Ari Standing by the Montana State University Sign">
+                </div>
+                <div class="half_box">
+                    <h1 id="skills">Skills</h1>
+                    <ul>
+                        <h5>Languages</h5>
+                        <li>Java</li>
+                        <li>Python</li>
+                        <li>HTML/CSS</li>
+                        <li>Javascript</li>
+                        <li>C#</li>
+                        <li>C</li>
+
+
+                        <h5>Software</h5>
+
+                        <li>Unity</li>
+                        <li>RStudio</li>
+                        <li>MATLAB</li>
+                        <li>Adobe Illustrator</li>
+
+
+                    </ul>
+                </div>
+                <div class="half_box">
+                    <img src="/images/mhall1.jpg" 
+                    class="portrait"
+                    loading="lazy"
+                    alt="A photo of Montana Hall">
+                    
                     
                 </div>
                 <div class="half_box">
-                    <h3>A list of my relevant classes</h3>
+                    <h1>Relevant Courses</h1>
+                    <ul>
+                        <h5>Programming</h5>
+                        <li>Data Structures and Algorithms</li>
+                        <li>Programming with C</li>
+                        <li>Andvanced Web Development</li>
+                        <li>Data Mining</li>
+                        <li>Multimedia Development Methods</li>
+                        <li>Computer Systems</li>
+
+                        <h5>Math & Statistics</h5>
+                        <li>Calculus 2</li>
+                        <li>Discrete Structures</li>
+                        <li>Intermediate Statistics w/ Computing</li>
+                        
+                        <h5>Related Courses</h5>
+                        <li>Data Ethics and Privacy</li>
+                        <li>Social and Ethical Issues in Computer Science</li>
+
+                    </ul>
                 </div>
                 
-
+            </section>
+            <section>
+                
             </section>
         </main>
        
-        <script src="/scripts/jquery-3.7.1.min.js"></script>
-        <script> $(function(){$("#sidebar").load("/templates/sidebar.html");});</script>
-
+        
     </body>
 </html>

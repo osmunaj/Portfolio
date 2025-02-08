@@ -20,9 +20,29 @@
 }
 
 .half_box{
-    width: 48%;
-    border: none;
     display: inline-block;
+    box-sizing: border-box;
+    float:left;
+    
+    
+    margin: 10px;
+
+    width: calc(50% - 20px);
+    min-width: 400px;
+    border-radius: 8px;
+    padding: 12px;
+    
+
+    border: none;
+    
+    background-color: rgb(67, 67, 67);
+    
+}
+
+.half_box h1{
+    font-size: 60px;
+    font-family: DM_Serif;
+    color: rgb(227, 227, 227);
 }
 
 .box p{
