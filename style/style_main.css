@@ -95,8 +95,10 @@ h5{
 }
 
 h6{
-    color: #ebebeb;
-    font-weight: 100;
+    font-style: italic;
+    color: #b3b3b3;
+    font-weight: 50;
+    text-align: center;
 }
 
 p,li{
