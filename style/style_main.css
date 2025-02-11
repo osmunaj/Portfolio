@@ -1,6 +1,6 @@
 @media only screen and (max-width: 1335px){
     .half_box{
-        width: calc(100% - 20px)!important;
+        width: calc(100% - 20px) !important;
     }
     body{
         margin-left: 4% !important;
@@ -23,6 +23,9 @@ html{
     scroll-behavior: smooth;
     background-image: url(/images/background-4.jpg);
     background-size: cover;
+
+    background-attachment: fixed;
+
 }
 body{
     min-width: 800px;
@@ -35,7 +38,7 @@ body{
     background-size: cover;
     box-shadow: 20px 20px 60px;
     background-color: #3f4c54;
-    border-top-left-radius: 8px;    
+    border-top-left-radius: 8px;
 }
 
 
@@ -92,7 +95,7 @@ h5{
 }
 
 p,li{
-    font-weight: 200;
+    font-weight: 100px;
     color: #ebebeb;
     text-align: left;
     font-family: Montserrat;
@@ -101,11 +104,11 @@ p,li{
     letter-spacing: 2px;
 }
 p{
-    text-indent: 50px;
+    /* text-indent: 50px; */
 }
 
 li{
-    margin-left: 100px;
+    margin-left: 150px;
     padding: 5px;
     text-align: left;
     list-style-type: square;
@@ -123,17 +126,24 @@ li{
     letter-spacing: 3px;
 }
 
-.orange_code{color: #6cbd71;font-weight: bold;}
-
+.orange_code{color: #a1c3c8;font-weight: bold;}
 
 .portrait{
     float: center;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 75%;
-    min-width: 200px;
+    width: 95%;
+}
 
+.image{
+    float: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+    border-radius: 8px;
+    box-shadow: 6px 6px 24px #141414;   
 }
 
 

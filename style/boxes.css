@@ -19,10 +19,15 @@
     color: rgb(227, 227, 227);
 }
 
+.left{float: left;}
+.right{float: right;}
+
 .half_box{
-    display: inline-block;
+    
     box-sizing: border-box;
-    float:left;
+    display: inline-block;
+    /* box-sizing:border-box; */
+    
     
     
     margin: 10px;
