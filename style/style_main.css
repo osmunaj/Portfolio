@@ -7,7 +7,6 @@
         margin-right: 4% !important;
     }
 }
-
 /* 
     Color palette:
     #30292F < Black
@@ -44,6 +43,7 @@ body{
 
 
 main{
+    
     background-color: #2e2e2e;
     width: calc(100% - 160px);
     
@@ -88,10 +88,15 @@ h3{
 
 h5{
     text-align: center;
-    color: #ebebeb;
+    
     font-size: 25px;
     font-weight: 100;
     
+}
+
+h6{
+    color: #ebebeb;
+    font-weight: 100;
 }
 
 p,li{
