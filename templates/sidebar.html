@@ -1,6 +1,30 @@
 
 <head>
     <link rel="stylesheet" href="../style/sidebar.css">
+    <script>
+        // alert("works!")
+    
+        const queryString = window.location.search;
+        const urlParams = new URLSearchParams(queryString);
+    
+        const str = window.location.href;
+        const spl = str.split('/');
+        const current = spl[spl.length-1]
+    
+    
+        const links = document.querySelectorAll('.link');
+    
+        links.forEach((link) => {
+    
+            link.classList.remove('selected');
+            let link_str = link.href;
+            const spl2 = link_str.split('/');
+            link_str = spl2[spl2.length-1];
+            if(link_str == current){
+                link.classList.add('selected');
+            }
+        });
+    </script>
 </head>
 
 <nav>
@@ -11,7 +35,7 @@
     <a href="/resume.html" class="link">Resume</a>
     <a href="/about_me.html" class="link">About Me</a>
 </nav>
-    
+
 
 <hr>
 <h3>Reach Out</h3>
@@ -41,30 +65,7 @@
     <h6>Last Push: 2/11/2025</h6>
 </footer>
 
-<script>
-    // alert("works!")
 
-    const queryString = window.location.search;
-    const urlParams = new URLSearchParams(queryString);
-
-    const str = window.location.href;
-    const spl = str.split('/');
-    const current = spl[spl.length-1]
-
-
-    const links = document.querySelectorAll('.link');
-
-    links.forEach((link) => {
-
-        link.classList.remove('selected');
-        let link_str = link.href;
-        const spl2 = link_str.split('/');
-        link_str = spl2[spl2.length-1];
-        if(link_str == current){
-            link.classList.add('selected');
-        }
-    });
-</script>
 
 <!-- <script src="/scripts/script.js"></script> -->
 

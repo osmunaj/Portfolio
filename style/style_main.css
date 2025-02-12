@@ -91,7 +91,7 @@ h5{
     
     font-size: 25px;
     font-weight: 100;
-    
+    color: #ebebeb;
 }
 
 h6{
@@ -99,6 +99,10 @@ h6{
     color: #b3b3b3;
     font-weight: 50;
     text-align: center;
+}
+
+footer{
+    vertical-align: bottom;
 }
 
 p,li{
