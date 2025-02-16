@@ -58,3 +58,23 @@
     font-weight: bold;
     font-size: 35px;
 }
+
+.collapsible{
+    font-size: 30px;
+    font-family: DM_Serif;
+    color: rgb(227, 227, 227);
+
+    background-color: rgb(52, 62, 71);
+    width: 100%;
+    border-radius: 5px;
+    height: 60px;
+    margin-top: 5px;
+}
+
+.project_box{
+    background-color: rgb(113, 123, 141);
+    display: none;
+    overflow: hidden;
+    padding: 10px;
+    margin-bottom: 20px;
+}

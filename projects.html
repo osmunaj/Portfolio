@@ -2,8 +2,12 @@
 
     <head>
         <link rel="stylesheet" href="/style/style_main.css">
+        <link rel="stylesheet" href="/style/boxes.css">
+        <link rel="stylesheet" href="/style/timeline.css">
         <script src="/scripts/jquery-3.7.1.min.js"></script>
         <script> $(function(){$("#sidebar").load("/templates/sidebar.html");});</script>
+        
+
     </head>
     <body>
         <div id="sidebar" class="left-sidebar"></div>
@@ -13,12 +17,75 @@
                 <h1 class="code">Projects</h1>
             </header>
             <section>
-                <p>work in progress</p>
+                
+                
+                <section>
+                    <h1>Web Application</h1>
+
+                    <button type="button" class="collapsible">Precious Gluten Bakery</button>
+                    <div class="project_box">
+                        <img src="/images/precious_gluten_bakery_img.png" 
+                        class="portrait"
+                        loading="lazy"
+                        alt="Precious Gluten Bakery Image">
+                    
+                        <br>
+                        <a target="_blank" href="https://osmunaj.github.io/Precious_Gluten_Bakery/" class="center_link">Click to View!</a>
+                        
+                        <p>Precious Gluten Bakery was my final project for my Freshman
+                            Web Design Class, CS145. It was the first website I made in college
+                            for a hypothetical bakery. 
+                        </p>
+                        <p>We used techniques like color theory, typography, and gaze path
+                            to make the site look cleaner and more appealing.
+                        </p>
+                    </div>
+
+                    <button type="button" class="collapsible">Scale Guide For Beginners</button>
+                    <div class="project_box">
+                        <a target="_blank" href="https://osmunaj.github.io/final_website/apcsp_final.html">Click to View!</a>
+                    </div>
+                    <button type="button" class="collapsible">ToDo List</button>
+                    <div class="project_box">
+
+                          
+
+                    </div>
+                </section>
+                
+                <section>
+                    <hr>
+                    <h1>Algorithms</h1>
+                </section>
+
+                <section>
+                    <hr>
+                    <h1>Personal Projects</h1>
+                </section>
+
+                <button type="button" class="collapsible">Project 2</button>
+                
             </section>
         </main>
         
         
+        <script>
+            // Collapsible Code: From W3 Schools
+            var coll = document.getElementsByClassName("collapsible");
+            var i;
 
+            for (i = 0; i < coll.length; i++) {
+                coll[i].addEventListener("click", function() {
+                    this.classList.toggle("active");
+                    var content = this.nextElementSibling;
+                    if (content.style.display === "block") {
+                        content.style.display = "none";
+                    } else {
+                        content.style.display = "block";
+                    }
+                });
+            }
+        </script>
  
     </body>
 </html>
