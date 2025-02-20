@@ -6,38 +6,21 @@
     background-color: rgb(199, 199, 199);
 }
 
-.main_content_box{
-    height: 100hv;
-    text-align: center;
-    padding-top: 80px;
-    padding-bottom: 80px;
-}
-
-.main_content_box h1{
-    font-size: 60px;
-    font-family: DM_Serif;
-    color: rgb(227, 227, 227);
-}
 
 .left{float: left;}
 .right{float: right;}
 
 .half_box{
-    
     box-sizing: border-box;
     display: inline-block;
-    /* box-sizing:border-box; */
-    
-    
-    
+    box-sizing:border-box;
     margin: 10px;
+   
 
     width: calc(50% - 20px);
     min-width: 400px;
     border-radius: 8px;
     padding: 12px;
-    
-
     border: none;
     
     background-color: rgb(67, 67, 67);
@@ -73,8 +56,14 @@
 
 .project_box{
     background-color: rgb(113, 123, 141);
-    display: none;
-    overflow: hidden;
-    padding: 10px;
-    margin-bottom: 20px;
+    box-sizing: border-box;
+    padding-left: 20px;
+    /* padding: 20px; */
+    
+    
+}
+
+@keyframes open_anim {
+    0% {height: 5%;}
+    100% {height: 80%;}
 }

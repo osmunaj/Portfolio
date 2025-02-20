@@ -1,0 +1,40 @@
+.loaded, .open, .close{
+    overflow: hidden;
+    max-height: max-content;
+}
+
+.loaded, .close{
+    height: 0px;
+}
+
+.close{
+    animation: close_collapsible 0.6s ease-in-out;
+}
+
+.open{
+    animation: open_collapsible 0.6s ease-in-out;
+}
+
+@keyframes open_collapsible{ 
+    0%{
+        max-height: 0px;   
+        opacity: 0;
+    }
+    100% {
+        max-height: 800px;
+        opacity: 1;
+    }   
+}
+
+
+@keyframes close_collapsible{ 
+    0% {
+        opacity: 1;
+        height: 800px;
+    }
+    100%{
+        opacity: 0;
+        height: 0px;
+    }
+    
+}

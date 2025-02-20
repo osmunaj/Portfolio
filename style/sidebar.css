@@ -4,8 +4,10 @@
     width: 160px;
     display: block;
     border-top-left-radius: 8px;
-    
+    position: inherit;
 }
+
+
 
 .selected{
     background-color: #ebebeb;

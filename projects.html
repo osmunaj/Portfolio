@@ -4,6 +4,7 @@
         <link rel="stylesheet" href="/style/style_main.css">
         <link rel="stylesheet" href="/style/boxes.css">
         <link rel="stylesheet" href="/style/timeline.css">
+        <link rel="stylesheet" href="/style/collapsible.css">
         <script src="/scripts/jquery-3.7.1.min.js"></script>
         <script> $(function(){$("#sidebar").load("/templates/sidebar.html");});</script>
         
@@ -44,11 +45,17 @@
                     <button type="button" class="collapsible">Scale Guide For Beginners</button>
                     <div class="project_box">
                         <a target="_blank" href="https://osmunaj.github.io/final_website/apcsp_final.html">Click to View!</a>
+                        <img src="/images/scaleguideimg.png" 
+                        class="portrait"
+                        loading="lazy"
+                        alt="Scale Guide Interface">
+                        <p>"A scale Guide for Beginner Musicians" was one of my first
+                            html / javascript projects. I made it my sophmore year of high school,
+                            and it's amazing how much I have grown since then as a developer!
+                        </p>
                     </div>
                     <button type="button" class="collapsible">ToDo List</button>
                     <div class="project_box">
-
-                          
 
                     </div>
                 </section>
@@ -56,36 +63,46 @@
                 <section>
                     <hr>
                     <h1>Algorithms</h1>
+                    <button type="button" class="collapsible">Grading Calculator</button>
+                    <div class="project_box">
+
+                    </div>
+                    <button type="button" class="collapsible">Java Data Structures & Algorithms</button>
+                    <div>
+
+                    </div>
+                    <button type="button" class="collapsible">Custom Linked List Class</button>
+                    <div class="project_box">
+
+                    </div>
+                </section>
+
+                <section>
+                    <h1>Unity</h1>
+                    <button type="button" class="collapsible">Dungeon Random Generation</button>
+                    <div class="project_box">
+
+                    </div>
+
+                    <button type="button" class="collapsible">Night of the Living Cannonball</button>
+                    <div>
+
+                    </div>
                 </section>
 
                 <section>
                     <hr>
                     <h1>Personal Projects</h1>
+                    <button type="button" class="collapsible"></button>
+                    <div class="project_box">
+                        
+                    </div>
                 </section>
 
-                <button type="button" class="collapsible">Project 2</button>
-                
+               
             </section>
         </main>
-        
-        
-        <script>
-            // Collapsible Code: From W3 Schools
-            var coll = document.getElementsByClassName("collapsible");
-            var i;
+        <script src="/scripts/collapsible.js"></script>
 
-            for (i = 0; i < coll.length; i++) {
-                coll[i].addEventListener("click", function() {
-                    this.classList.toggle("active");
-                    var content = this.nextElementSibling;
-                    if (content.style.display === "block") {
-                        content.style.display = "none";
-                    } else {
-                        content.style.display = "block";
-                    }
-                });
-            }
-        </script>
- 
     </body>
 </html>
