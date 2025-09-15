@@ -87,9 +87,11 @@ h3{
     font-family: Montserrat;
 }
 
+
+
 h5{
-    text-align: center;
-    
+    text-align: left;
+    padding-left: 20px;
     font-size: 25px;
     font-weight: 100;
     color: #ebebeb;
@@ -116,7 +118,7 @@ p,li{
     letter-spacing: 2px;
 }
 p{
-    /* text-indent: 50px; */
+    text-indent: 50px;
 }
 
 li{
@@ -145,7 +147,15 @@ li{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 95%;
+    width: 45%;
+}
+
+.stylized_section{
+    background-color: rgb(107, 114, 128);
+    padding: 20px;
+    margin: 80px;
+    border-radius: 12px;
+    box-shadow: 6px 6px 24px #141414; 
 }
 
 .image{
@@ -153,7 +163,8 @@ li{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 95%;
+    width: 80%;
+    max-width: 650px;
     border-radius: 8px;
     box-shadow: 6px 6px 24px #141414;   
 }
