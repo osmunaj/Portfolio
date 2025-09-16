@@ -25,6 +25,11 @@ html{
     background-attachment: fixed;
 }
 
+button{
+    text-align: left;
+    padding-left: 20px;
+}
+
 body{
     min-width: 920px;
 
@@ -128,7 +133,16 @@ li{
     list-style-type: square;
 }
 
+.icon_left{
+    width: 30px;
+    float: right;
+    padding-right: 30px;
+    padding-top: 6px;
+}
 
+.flipped{
+    transform: scaleY(-1);
+}
 
 .code{
     text-align: left;
