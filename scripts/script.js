@@ -1,7 +1,4 @@
+var highlight_links = document.getElementsByClassName("highlight_link");
+const current = document.getElementById(window.location.pathname.slice(1, -5));
 
-function update_link(element){
-    
-    const temp = document.getElementById(element);
-    temp.classList.add('selected');
-}
- 
+current.classList.add('selected')
